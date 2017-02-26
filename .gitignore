@@ -3,7 +3,5 @@
 *.gcda
 *.gcno
 *.gcov
-README
-README.md
 Doxyfile
 Doxyfile.bak/
