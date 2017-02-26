@@ -1,0 +1,9 @@
+# http://git-scm.com/docs/gitignore/
+
+*.gcda
+*.gcno
+*.gcov
+README
+README.md
+Doxyfile
+Doxyfile.bak/

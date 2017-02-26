@@ -1,0 +1,141 @@
+==2786== Memcheck, a memory error detector
+==2786== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==2786== Using Valgrind-3.10.0.SVN and LibVEX; rerun with -h for copyright info
+==2786== Command: ./TestDarwin
+==2786== 
+Running main() from gtest_main.cc
+[==========] Running 50 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 15 tests from TestSpecies
+[ RUN      ] TestSpecies.printSpecies1
+[       OK ] TestSpecies.printSpecies1 (13 ms)
+[ RUN      ] TestSpecies.printSpecies2
+[       OK ] TestSpecies.printSpecies2 (2 ms)
+[ RUN      ] TestSpecies.addInstruction1
+[       OK ] TestSpecies.addInstruction1 (17 ms)
+[ RUN      ] TestSpecies.addInstruction2
+[       OK ] TestSpecies.addInstruction2 (3 ms)
+[ RUN      ] TestSpecies.addInstruction3
+[       OK ] TestSpecies.addInstruction3 (4 ms)
+[ RUN      ] TestSpecies.addInstruction4
+[       OK ] TestSpecies.addInstruction4 (5 ms)
+[ RUN      ] TestSpecies.callInstruction1
+[       OK ] TestSpecies.callInstruction1 (4 ms)
+[ RUN      ] TestSpecies.callInstruction2
+[       OK ] TestSpecies.callInstruction2 (2 ms)
+[ RUN      ] TestSpecies.callInstruction3
+[       OK ] TestSpecies.callInstruction3 (3 ms)
+[ RUN      ] TestSpecies.callInstruction4
+[       OK ] TestSpecies.callInstruction4 (3 ms)
+[ RUN      ] TestSpecies.callInstruction5
+[       OK ] TestSpecies.callInstruction5 (2 ms)
+[ RUN      ] TestSpecies.callInstruction6
+[       OK ] TestSpecies.callInstruction6 (6 ms)
+[ RUN      ] TestSpecies.callInstruction7
+[       OK ] TestSpecies.callInstruction7 (2 ms)
+[ RUN      ] TestSpecies.callInstruction8
+[       OK ] TestSpecies.callInstruction8 (2 ms)
+[ RUN      ] TestSpecies.matches
+[       OK ] TestSpecies.matches (8 ms)
+[----------] 15 tests from TestSpecies (83 ms total)
+
+[----------] 25 tests from TestCreature
+[ RUN      ] TestCreature.turnLeft1
+[       OK ] TestCreature.turnLeft1 (6 ms)
+[ RUN      ] TestCreature.turnLeft2
+[       OK ] TestCreature.turnLeft2 (2 ms)
+[ RUN      ] TestCreature.turnLeft3
+[       OK ] TestCreature.turnLeft3 (2 ms)
+[ RUN      ] TestCreature.turnLeft4
+[       OK ] TestCreature.turnLeft4 (2 ms)
+[ RUN      ] TestCreature.turnLeft5
+[       OK ] TestCreature.turnLeft5 (2 ms)
+[ RUN      ] TestCreature.turnLeft6
+[       OK ] TestCreature.turnLeft6 (2 ms)
+[ RUN      ] TestCreature.turnLeft7
+[       OK ] TestCreature.turnLeft7 (2 ms)
+[ RUN      ] TestCreature.turnLeft8
+[       OK ] TestCreature.turnLeft8 (2 ms)
+[ RUN      ] TestCreature.turnRight1
+[       OK ] TestCreature.turnRight1 (2 ms)
+[ RUN      ] TestCreature.turnRight2
+[       OK ] TestCreature.turnRight2 (2 ms)
+[ RUN      ] TestCreature.turnRight3
+[       OK ] TestCreature.turnRight3 (2 ms)
+[ RUN      ] TestCreature.turnRight4
+[       OK ] TestCreature.turnRight4 (2 ms)
+[ RUN      ] TestCreature.turnRight5
+[       OK ] TestCreature.turnRight5 (2 ms)
+[ RUN      ] TestCreature.turnRight6
+[       OK ] TestCreature.turnRight6 (1 ms)
+[ RUN      ] TestCreature.turnRight7
+[       OK ] TestCreature.turnRight7 (2 ms)
+[ RUN      ] TestCreature.turnRight8
+[       OK ] TestCreature.turnRight8 (2 ms)
+[ RUN      ] TestCreature.infect1
+[       OK ] TestCreature.infect1 (3 ms)
+[ RUN      ] TestCreature.infect2
+[       OK ] TestCreature.infect2 (3 ms)
+[ RUN      ] TestCreature.move1
+[       OK ] TestCreature.move1 (9 ms)
+[ RUN      ] TestCreature.move2
+[       OK ] TestCreature.move2 (15 ms)
+[ RUN      ] TestCreature.move3
+[       OK ] TestCreature.move3 (5 ms)
+[ RUN      ] TestCreature.move4
+[       OK ] TestCreature.move4 (4 ms)
+[ RUN      ] TestCreature.move5
+[       OK ] TestCreature.move5 (4 ms)
+[ RUN      ] TestCreature.move6
+[       OK ] TestCreature.move6 (2 ms)
+[ RUN      ] TestCreature.printCreature
+[       OK ] TestCreature.printCreature (3 ms)
+[----------] 25 tests from TestCreature (86 ms total)
+
+[----------] 10 tests from TestDarwin
+[ RUN      ] TestDarwin.addCreature1
+[       OK ] TestDarwin.addCreature1 (53 ms)
+[ RUN      ] TestDarwin.moveCreature1
+[       OK ] TestDarwin.moveCreature1 (9 ms)
+[ RUN      ] TestDarwin.moveCreature2
+[       OK ] TestDarwin.moveCreature2 (3 ms)
+[ RUN      ] TestDarwin.move1
+[       OK ] TestDarwin.move1 (23 ms)
+[ RUN      ] TestDarwin.move2
+[       OK ] TestDarwin.move2 (3 ms)
+[ RUN      ] TestDarwin.wallCode1
+[       OK ] TestDarwin.wallCode1 (2 ms)
+[ RUN      ] TestDarwin.wallCode2
+[       OK ] TestDarwin.wallCode2 (3 ms)
+[ RUN      ] TestDarwin.wallCode3
+[       OK ] TestDarwin.wallCode3 (2 ms)
+[ RUN      ] TestDarwin.print1
+[       OK ] TestDarwin.print1 (7 ms)
+[ RUN      ] TestDarwin.print2
+[       OK ] TestDarwin.print2 (4 ms)
+[----------] 10 tests from TestDarwin (110 ms total)
+
+[----------] Global test environment tear-down
+[==========] 50 tests from 3 test cases ran. (309 ms total)
+[  PASSED  ] 50 tests.
+==2786== 
+==2786== HEAP SUMMARY:
+==2786==     in use at exit: 0 bytes in 0 blocks
+==2786==   total heap usage: 1,232 allocs, 1,232 frees, 140,580 bytes allocated
+==2786== 
+==2786== All heap blocks were freed -- no leaks are possible
+==2786== 
+==2786== For counts of detected and suppressed errors, rerun with: -v
+==2786== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+File 'Darwin.c++'
+Lines executed:87.00% of 100
+Branches executed:86.55% of 119
+Taken at least once:58.82% of 119
+Calls executed:69.64% of 112
+Creating 'Darwin.c++.gcov'
+File 'TestDarwin.c++'
+Lines executed:100.00% of 271
+Branches executed:61.93% of 1324
+Taken at least once:30.97% of 1324
+Calls executed:55.51% of 1553
+Creating 'TestDarwin.c++.gcov'

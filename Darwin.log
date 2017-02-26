@@ -1,0 +1,107 @@
+commit 35ffde186c8f2242cd7175cdfd1ad75316e9e875
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Thu Nov 5 20:46:37 2015 -0600
+
+    final changes
+
+commit 7a0d5aef4dabb3bfe676e4303137ee08baa7832b
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Thu Nov 5 20:08:53 2015 -0600
+
+    fixed #1 #2 successful run ensured on Travis. make file created
+
+commit a52c95737de5bd1eb82a695313574a3a5eb6e51e
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Thu Nov 5 19:47:43 2015 -0600
+
+    added .out files
+
+commit 1ef3bf8d02a7518e6cda644239f2282462a21973
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Thu Nov 5 19:42:46 2015 -0600
+
+    added .gitignore
+
+commit 13cb17ff3f14b25dd73fe7b27a74153b03945a8a
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Thu Nov 5 19:33:35 2015 -0600
+
+    made .travis.yml
+
+commit ff5a3cf1b61616afd76fd509103fa271ad966071
+Author: kesswein <kesswein@utexas.edu>
+Date:   Thu Nov 5 19:20:27 2015 -0600
+
+    Delete .nfs00000000053c6f7d00000a59
+
+commit 2d7e1a6f28db66bff8918edd9d0bdafe7939cc3b
+Author: kesswein <kesswein@utexas.edu>
+Date:   Thu Nov 5 19:15:22 2015 -0600
+
+    fixed #15 created best species
+
+commit 7e671d475d73b53c4976252dab008b4b6b0310ec
+Author: kesswein <kesswein@utexas.edu>
+Date:   Thu Nov 5 12:41:14 2015 -0600
+
+    fixed wallCode
+
+commit 25279ce13c27cd7e08a1fb7e272f8854a37bfdec
+Author: kesswein <kesswein@utexas.edu>
+Date:   Tue Nov 3 20:14:50 2015 -0600
+
+    change direction works, lots of comments
+
+commit 6398adacae70e54630cb9f4ec685d3b8eff7b1da
+Author: kesswein <kesswein@utexas.edu>
+Date:   Tue Nov 3 19:04:50 2015 -0600
+
+    x and y coordinates switched
+
+commit 59dfd8e2377ef3c80b65565a4abe63b26e90ea01
+Author: kesswein <kesswein@utexas.edu>
+Date:   Mon Nov 2 18:43:42 2015 -0600
+
+    passing surrounding Creatures by pointer, infect working, closes #14
+
+commit 685c1b8233047f863b0dfd9666e2c38bc616054b
+Author: kesswein <kesswein@utexas.edu>
+Date:   Mon Nov 2 17:19:56 2015 -0600
+
+    entering debugging stage, closes #12, closes #13, closes #10, closes #8, closes #5
+
+commit b451191c1391817538b50f3994ff7567c89df121
+Author: kesswein <kesswein@utexas.edu>
+Date:   Sat Oct 31 19:08:22 2015 -0500
+
+    basic instructions implemented, closes #8, closes #7, closes #6
+
+commit dfb9c3eb854c35fabedf0777b3eab45aef5e45d7
+Author: kesswein <kesswein@utexas.edu>
+Date:   Sat Oct 31 17:38:12 2015 -0500
+
+    program not compiling
+
+commit aa167210ee5e72d0132676335ea82ab94e1f405c
+Author: kesswein <kesswein@utexas.edu>
+Date:   Sat Oct 31 15:06:04 2015 -0500
+
+    creature expanded, closes #8, closes # 7, closes #6
+
+commit 384c7ddf8102b19afdfa93e413950a079b63fa7f
+Author: kesswein <kesswein@utexas.edu>
+Date:   Wed Oct 28 17:10:08 2015 -0500
+
+    make partially made, with grid and all classes, closes #3, closes #4
+
+commit afdb0c5a51c105e54c67d0bd2346e40858eff346
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Sat Oct 24 11:21:30 2015 -0500
+
+    another commit
+
+commit 2bd3836b622f51b648a6aafca95334ad593a841d
+Author: Glenn Downing <downing@cs.utexas.edu>
+Date:   Sat Oct 24 11:19:06 2015 -0500
+
+    first commit
